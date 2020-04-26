@@ -3,6 +3,7 @@
 baseURL = '/'
 title = 'Hugo Book'
 theme = 'hugo-book'
+themesDir = "themes"
 
 # Book configuration
 disablePathToLower = true
