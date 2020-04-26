@@ -24,3 +24,7 @@ func main() {
     http.ListenAndServe(":8080", nil)
 }
 ```
+
+{{< tabs "Windows" >}}
+{{< tab "MacOS" >}}
+{{< tab "Linux" >}}
