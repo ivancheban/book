@@ -31,7 +31,7 @@ enableGitInfo = false
   contentDir = 'content.ru'
   weight = 2
 
-[languages.cn]
+[languages.ua]
   languageName = 'Ukrainian'
   contentDir = 'content.ua'
   weight = 3
