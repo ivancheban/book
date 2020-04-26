@@ -25,6 +25,27 @@ func main() {
 }
 ```
 
-{{< tabs "Windows" >}}
-{{< tab "MacOS" >}}
-{{< tab "Linux" >}}
+{{< tabs "uniqueid" >}}
+{{< tab "Android" >}}
+# Android
+
+This is a tab for **Android** content.
+
+{{< /tab >}}
+
+{{< tab "iOS" >}}
+
+# iOS
+
+This is a tab for **iOS** content.
+
+{{< /tab >}}
+
+{{< tab "Windows" >}}
+
+# Windows
+
+This is a tab for **Windows** content.
+
+{{< /tab >}}
+{{< /tabs >}}
