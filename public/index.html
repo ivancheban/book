@@ -5,7 +5,8 @@
 	<meta name="generator" content="Hugo 0.69.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Ivan built this Hugo Book theme as an example. This is a test page. This is a new test."><meta property="og:title" content="Hugo Book Theme" />
+<meta name="description" content="Ivan built this Hugo Book theme as an example. This is a test page.
+package main import ( &#34;fmt&#34; &#34;net/http&#34; ) func handler(w http.ResponseWriter, r *http.Request) { fmt.Fprintf(w, &#34;Hi there, I love %s!&#34;, r.URL.Path[1:]) } func main() { http.HandleFunc(&#34;/&#34;, handler) http.ListenAndServe(&#34;:8080&#34;, nil) } "><meta property="og:title" content="Hugo Book Theme" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
@@ -326,8 +327,23 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown"><h1 id="ivan-built-this-hugo-book-theme-as-an-example">Ivan built this Hugo Book theme as an example.</h1>
-<p>This is a test page. This is a new test.</p>
-</article>
+<p>This is a test page.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+
+<span style="color:#f92672">import</span> (
+    <span style="color:#e6db74">&#34;fmt&#34;</span>
+    <span style="color:#e6db74">&#34;net/http&#34;</span>
+)
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">handler</span>(<span style="color:#a6e22e">w</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ResponseWriter</span>, <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Request</span>) {
+    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Fprintf</span>(<span style="color:#a6e22e">w</span>, <span style="color:#e6db74">&#34;Hi there, I love %s!&#34;</span>, <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">URL</span>.<span style="color:#a6e22e">Path</span>[<span style="color:#ae81ff">1</span>:])
+}
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+    <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">HandleFunc</span>(<span style="color:#e6db74">&#34;/&#34;</span>, <span style="color:#a6e22e">handler</span>)
+    <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ListenAndServe</span>(<span style="color:#e6db74">&#34;:8080&#34;</span>, <span style="color:#66d9ef">nil</span>)
+}
+</code></pre></div></article>
  
       
 
