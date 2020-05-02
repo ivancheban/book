@@ -4,6 +4,7 @@ baseURL = '/'
 title = 'Hugo Book'
 theme = 'hugo-book'
 themesDir = "themes"
+googleAnalytics = "UA-162550995-14"
 
 # Book configuration
 disablePathToLower = true
