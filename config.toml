@@ -8,7 +8,7 @@ googleAnalytics = "UA-162550995-14"
 
 # Book configuration
 disablePathToLower = true
-enableGitInfo = false
+enableGitInfo = true
 
 # Needed for mermaid/katex shortcodes
 [markup]
